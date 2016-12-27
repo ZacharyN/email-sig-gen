@@ -1,0 +1,47 @@
+
+// Gather up the partials
+@import "colors";
+@import "loader";
+@import "nav";
+@import "components";
+//@import "form";
+
+// ESG Live Preview Classes
+.esg-outline {
+  padding: 30px 15px;
+  background-color: #fff;
+  border: 2px solid $primary-color;
+  border-radius: 4px;
+}
+
+// Utility Classes
+.add-space {margin: 10px 0;}
+
+.helper-label-nested {
+  margin-top: -15px;
+  margin-right: 15px;
+  position: absolute;
+  left: auto;
+  right: 0;
+  font-size: 10px;
+}
+
+@-moz-document url-prefix() {
+  .helper-label-nested {
+    margin-top: 0;
+  }
+}
+
+.helper-label {
+    margin-top: -15px;
+    margin-right: 32px;
+    position: absolute;
+    left: auto;
+    right: 0;
+    font-size: 10px;
+}
+
+// Put Font Awesome in-line block so the tooltips work
+i.fa {
+  display: inline-block;
+}
