@@ -1,4 +1,4 @@
-﻿#Angular HTML Email Signature Generator
+# Angular HTML Email Signature Generator
 
 This is a simple web app built with Angular 1 and Bootstrap 3 to create HTML signatures. I've got a post on my LinkedIn profile detailing how this project came to be. If you're curious, check it out (eventually) here.
 
@@ -52,13 +52,13 @@ In this section of the web app, fallback text is used to keep links from breakin
 #### Social Media Icons
 The social media icons in this demo app are from [Alfredo Hernandez](https://www.iconfinder.com/iconsets/black-white-social-media) and are licensed under a Creative Commons (Attribution 3.0 Unported) licence.
 
-####Form Validation & Character Limits
+#### Form Validation & Character Limits
 In the production version, I'm using formvalidation.io's jQuery form validator. Since that's a paid jQuery plugin, I've dropped that functionality out of the demo app.
 
 I've also removed the character limits from the demo app. Feel free to add those back in.
 
-####Custom Tracking Links
+#### Custom Tracking Links
 The `Your Location ID` on line 86 was used to create a trackable URL for the website link (line 421). That functionality was removed for the demo app.
 
-###Finding Me
+### Finding Me
 Comments, questions, concerns, complaints? Find me on [LinkedIn](https://www.linkedin.com/in/zacharynelson) or shoot me a message on Twitter [@ZacharyNelson](https://twitter.com/ZacharyNelson).
